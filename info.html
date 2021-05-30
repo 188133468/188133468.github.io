@@ -54,12 +54,14 @@
 
   var $marquee = document.querySelector('.marquee');
   var $marqueeContent = $marquee.querySelector('.bar');
-  $marqueeContent.innerHTML = $marqueeContent.innerHTML + $marqueeContent.innerHTML +$marqueeContent.innerHTML + $marqueeContent.innerHTML +$marqueeContent.innerHTML + $marqueeContent.innerHTML + $marqueeContent.innerHTML + $marqueeContent.innerHTML + $marqueeContent.innerHTML + $marqueeContent.innerHTML + $marqueeContent.innerHTML + $marqueeContent.innerHTML + $marqueeContent.innerHTML + $marqueeContent.innerHTML + $marqueeContent.innerHTML + $marqueeContent.innerHTML + $marqueeContent.innerHTML + $marqueeContent.innerHTML + $marqueeContent.innerHTML + $marqueeContent.innerHTML + $marqueeContent.innerHTML + $marqueeContent.innerHTML + $marqueeContent.innerHTML + $marqueeContent.innerHTML + $marqueeContent.innerHTML + $marqueeContent.innerHTML + $marqueeContent.innerHTML + $marqueeContent.innerHTML
+  $marqueeContent.innerHTML = $marqueeContent.innerHTML + $marqueeContent.innerHTML +$marqueeContent.innerHTML + $marqueeContent.innerHTML +$marqueeContent.innerHTML + $marqueeContent.innerHTML + $marqueeContent.innerHTML + $marqueeContent.innerHTML + $marqueeContent.innerHTML + $marqueeContent.innerHTML + $marqueeContent.innerHTML + $marqueeContent.innerHTML + $marqueeContent.innerHTML + $marqueeContent.innerHTML + $marqueeContent.innerHTML + $marqueeContent.innerHTML + $marqueeContent.innerHTML + $marqueeContent.innerHTML + $marqueeContent.innerHTML + $marqueeContent.innerHTML + $marqueeContent.innerHTML + $marqueeContent.innerHTML + $marqueeContent.innerHTML + $marqueeContent.innerHTML + $marqueeContent.innerHTML + $marqueeContent.innerHTML + $marqueeContent.innerHTML + $marqueeContent.innerHTML + $marqueeContent.innerHTML + $marqueeContent.innerHTML +$marqueeContent.innerHTML + $marqueeContent.innerHTML +$marqueeContent.innerHTML + $marqueeContent.innerHTML + $marqueeContent.innerHTML + $marqueeContent.innerHTML + $marqueeContent.innerHTML + $marqueeContent.innerHTML + $marqueeContent.innerHTML + $marqueeContent.innerHTML + $marqueeContent.innerHTML + $marqueeContent.innerHTML + $marqueeContent.innerHTML + $marqueeContent.innerHTML + $marqueeContent.innerHTML + $marqueeContent.innerHTML + $marqueeContent.innerHTML + $marqueeContent.innerHTML + $marqueeContent.innerHTML + $marqueeContent.innerHTML + $marqueeContent.innerHTML + $marqueeContent.innerHTML + $marqueeContent.innerHTML + $marqueeContent.innerHTML + $marqueeContent.innerHTML + $marqueeContent.innerHTML
+
   var contentWidth = $marqueeContent.getBoundingClientRect().width;
+  
   if (contentWidth <= 0) {
     return;
   }
-  contentWidth = contentWidth / 16
+  contentWidth = contentWidth / 32
   var onceTime = contentWidth / speed * 1000; //ms
 
   $marqueeContent.style.animationDuration = onceTime + "ms"
@@ -125,7 +127,7 @@
     color: #fff;
     min-height: 40%;
     
-    top: 50%;
+    top: 55%;
     left: 50%;
     transform: translate(-50%,-50%);
 
@@ -230,7 +232,7 @@
   text-align: center;
   height: 30px;
   line-height: 30px;
-  font-size: 15px;
+  font-size: 13px;
   border-radius: 5px;
 }
 .title-box {
