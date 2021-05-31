@@ -50,7 +50,7 @@
   </div>
   <script>
 (function () {
-  var speed = 40;
+  var speed = 35;
 
   var $marquee = document.querySelector('.marquee');
   var $marqueeContent = $marquee.querySelector('.bar');
@@ -62,7 +62,7 @@
     return;
   }
   contentWidth = contentWidth / 32
-  var onceTime = contentWidth / speed * 1600; //ms
+  var onceTime = contentWidth / speed * 3000; //ms
 
   $marqueeContent.style.animationDuration = onceTime + "ms"
 })()
