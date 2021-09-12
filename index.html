@@ -12,7 +12,7 @@
   <input type="password" id="psw" maxlength="20" placeholder="请输入密码">
   <button id="pswBtn" onclick="confirm()">确认密码</button>
 
-  <div class="info-box" id="info-box" style="visibility:hidden;">
+  <div class="info-box" id="info-box">
     <ul>
       <li>姓名：<input type="text" id="name"></li>
       <li>学号：<input type="text" id="number"></li>
@@ -25,7 +25,12 @@
     </ul>
     <button id="formBtn" onclick="saveInfo()">确定</button>
   </div>
-  
+  <div class="info-text" id="info-text" >
+    <textarea rows="10" readonly cols="50" style="font-size:20px; color:#ff0000">
+      123eaetetqewtertqewtertetwet
+    </textarea>
+    
+  </div>
   <script>
     let password = '+QQ:737379109'
     function confirm() {
